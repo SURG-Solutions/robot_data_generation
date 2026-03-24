@@ -1,0 +1,58 @@
+{
+  "source": {
+    "path": "/Users/bhoumikmishra/CAD-STL/phase1_demo/data/input_stl/sample.stl",
+    "bounding_box_mm": {
+      "x": 80.0,
+      "y": 40.0,
+      "z": 58.0
+    },
+    "watertight": false,
+    "vertices": 14,
+    "faces": 24,
+    "volume": null
+  },
+  "augmentations": [
+    {
+      "name": "scale_proportional_1.2",
+      "description": "Proportional scale \u00d71.2",
+      "output_file": "/Users/bhoumikmishra/CAD-STL/phase1_demo/data/output_stl/scale_proportional_1.2.stl",
+      "bounding_box_mm": {
+        "x": 96.0,
+        "y": 48.0,
+        "z": 69.6
+      },
+      "watertight": false,
+      "vertices": 14,
+      "faces": 24,
+      "volume": null
+    },
+    {
+      "name": "scale_non_proportional_x1.1_y0.9_z1.3",
+      "description": "Non-proportional scale x=1.1 y=0.9 z=1.3",
+      "output_file": "/Users/bhoumikmishra/CAD-STL/phase1_demo/data/output_stl/scale_non_proportional_x1.1_y0.9_z1.3.stl",
+      "bounding_box_mm": {
+        "x": 88.0,
+        "y": 36.0,
+        "z": 75.4
+      },
+      "watertight": false,
+      "vertices": 14,
+      "faces": 24,
+      "volume": null
+    },
+    {
+      "name": "rotate_z_45deg",
+      "description": "Rotation around Z-axis by 45\u00b0",
+      "output_file": "/Users/bhoumikmishra/CAD-STL/phase1_demo/data/output_stl/rotate_z_45deg.stl",
+      "bounding_box_mm": {
+        "x": 84.8528137423857,
+        "y": 84.8528137423857,
+        "z": 58.0
+      },
+      "watertight": false,
+      "vertices": 14,
+      "faces": 24,
+      "volume": null
+    }
+  ]
+}
